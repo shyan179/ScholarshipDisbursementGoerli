@@ -82,7 +82,7 @@ Error message will show if try to store a student code that already exists in th
 ### Scholarship Provider Page
 Scholarship Provider Page allows the scholarship provider to add scholarship to the student. If the provider tries to add scholarship to the student code that is not exists in the blockchain, it will create an error message.
 
-When the provider add the scholarship, the wallet address of the provider will be stored to the scholarship record and the price convert function will convert the USD amount entered to Wei and then metamask will be executed to transfer the Wei amount (you could refer the Rinkeby version for USD amount unit or Ganache version with no price conversion involved in other repository folders) to the Staff smart contract for disbursement later.
+When the provider add the scholarship, the wallet address of the provider will be stored to the scholarship record and the price convert function will convert the USD amount entered to Wei and then metamask will be executed to transfer the Wei amount (you could refer the Rinkeby version for GBP amount unit or Ganache version with no price conversion involved in other repository folders) to the Staff smart contract for disbursement later.
 
 ![image](https://user-images.githubusercontent.com/99839809/192119329-a6c053e1-0628-4326-9328-d9fd5ac99180.png)
 
